@@ -15,6 +15,22 @@ $(document).ready(function(){
         }
     });
 
+
+
+// to show the popup when the page loads
+        window.onload = function () {
+            var popupOverlay = document.getElementById('popupOverlay');
+            var okButton = document.getElementById('okButton');
+
+            okButton.addEventListener('click', function () {
+                popupOverlay.style.display = 'none';
+            });
+
+            popupOverlay.style.display = 'flex';
+        }
+
+
+    
     // slide-up script
     $('.scroll-up-btn').click(function(){
         $('html').animate({scrollTop: 0});
