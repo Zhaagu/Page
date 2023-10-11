@@ -417,7 +417,7 @@ section .title::after{
 
 /* trade section styling */
 .teams .title::after{
-    content: "|| Where i teams || Binance:Retrix_007 ||";
+    content: "|| Where i trades || Binance:Retrix_007 ||";
     
 }
 .teams .carousel .card{
